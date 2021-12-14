@@ -17,7 +17,6 @@
                 <div class="card">
                     <div class="card-header">Soal {{$priority}}/{{$total_questions}}</div>
                     <div class="card-body">
-                        <p>{{$correct}}</p>
                         <p>{{$question->body}}</p>
                         <ul class="list-group list-group-flush">
                             @foreach (json_decode($question->answers) as $index => $answer)
