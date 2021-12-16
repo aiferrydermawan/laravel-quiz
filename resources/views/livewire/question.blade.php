@@ -9,7 +9,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quis inventore ut ad! Repellendus accusantium eligendi quam? Voluptates aliquam, voluptate voluptatibus voluptatem delectus quia labore suscipit ex necessitatibus nihil temporibus.</p>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://trakteer.id/ferry-dermawan-r8umr/tip">Donasi</a>
+                        <a href="https://trakteer.id/aiferrydermawan/tip">Donasi</a>
                         <button wire:click="changeStatus('start')" class="btn btn-danger">Start</button>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://trakteer.id/ferry-dermawan-r8umr/tip">Donasi</a>
+                        <a href="https://trakteer.id/aiferrydermawan/tip">Donasi</a>
                         <div>
                             @if ($mySelected !== NULL)
                                 <div>
@@ -60,7 +60,7 @@
                         </ul>
                     </div>
                     <div class="card-footer d-flex justify-content-between align-items-center">
-                        <a href="https://trakteer.id/ferry-dermawan-r8umr/tip">Donasi</a>
+                        <a href="https://trakteer.id/aiferrydermawan/tip">Donasi</a>
                         <a href="{{route('questions.index')}}" class="btn btn-warning">Retry</a>
                     </div>
                 </div>
