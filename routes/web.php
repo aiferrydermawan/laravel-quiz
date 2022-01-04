@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('questions.index');
 });
 
 Route::get('/questions',QuestionController::class)->name('questions.index');
